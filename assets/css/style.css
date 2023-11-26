@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background-color: #34495e;
+  color: #7f8081;
+  padding: 5rem;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.679);
+  border-radius: 2rem;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.211);
+}
+
+form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+  gap: 1rem;
+  background: #fff;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.211);
+}
+
+label {
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+input,
+select {
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  border: solid 1px silver;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #084a9e;
+}
+
+button {
+  background: #084a9e;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  box-shadow: 4px 8px 19px -3px rgb(0 0 0 / 27%);
+}
+
+button:hover {
+  color: #084a9e;
+  background: #fff;
+}
+.chart-container {
+  margin: 0;
+  width: 60%;
+  min-height: 450px;
+  padding: 3rem;
+}
+
+#result {
+  font-weight: 750;
+  font-size: 3rem;
+}
